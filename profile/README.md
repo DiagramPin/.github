@@ -1,54 +1,29 @@
 # 📍 DiagramPin
 
-> **Pin Your Diagram Layouts in Code**
+> **A diagram editor that saves layout positions directly in your code.**
+>
+> Drag nodes → `@layout` comments auto-update.
+> Version control your diagram layouts with Git!
 
-DBML/Mermaid diagram editor with position locking
-
----
-
-## 🌐 Live Demo
-
-**👉 [https://diagrampin.com](https://diagrampin.com)**
-
----
+**🌐 Try it now: [diagrampin.com](https://diagrampin.com)**
 
 ## ✨ Features
 
-- 📌 **Position Locking**: Lock diagram layouts directly in code
-- 🎯 **DBML Support**: Database schema visualization
-- 🔄 **Mermaid Support**: Flowcharts, sequence diagrams, and more
-- 💾 **Auto Save**: Automatic layout persistence
-- 🎨 **Intuitive UI**: Simple and powerful editing experience
+DiagramPin adds **position locking** to code-rendered diagrams.
 
----
+- 📌 Drag nodes → positions auto-save to code as `@layout` comments
+- 🔄 Bidirectional sync between code and diagram
+- 📦 Version control your layouts with Git
 
-## 🚀 Use Cases
+### Supported Formats
 
-### Database Schema Design
-Draw ERDs with DBML code and lock table positions in code for team collaboration
+| Format | Type | Use Cases |
+|--------|------|-----------|
+| **DBML** | Database Markup | ERD, Schema Design |
+| **Mermaid** | Diagram as Code | Flowcharts, ER, Sequence |
 
-### System Architecture
-Design system structures with Mermaid flowcharts while maintaining layout consistency
+## 💬 Feedback
 
-### Documentation
-Keep consistent diagram layouts in documentation
+We'd love to hear from you!
 
----
-
-## 📚 Supported Formats
-
-- **DBML** (Database Markup Language)
-- **Mermaid** (Flowchart, Sequence, ER Diagram, etc.)
-
----
-
-## 🔗 Links
-
-- 🌐 **Website**: [https://diagrampin.com](https://diagrampin.com)
-- 📖 **Issues**: [GitHub Issues](https://github.com/DiagramPin/diagrampin/issues)
-
----
-
-## 💬 Get Involved
-
-Feel free to open an issue for questions or suggestions!
+👉 **[Submit feedback](https://github.com/DiagramPin/diagrampin/issues)**
